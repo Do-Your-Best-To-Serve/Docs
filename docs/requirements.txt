@@ -1,0 +1,4 @@
+markdown-include
+mkdocs
+mkdocstrings
+mkdocstrings-python
