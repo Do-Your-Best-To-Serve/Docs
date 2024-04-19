@@ -1,17 +1,5 @@
-# Welcome to DYBTS Docs
+# 歡迎來到 DYBTS 文黨
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+如果你是第一次來到這裡，我會建議你去看看機器人介紹，點擊"[關於DYBTS](about.md)"查看更多內容。
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+如果你有來過這裡，那麼請直接使用"搜尋"尋找你需要的文黨內容。

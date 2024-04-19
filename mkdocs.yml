@@ -1,7 +1,6 @@
 site_name: DYBTS Docs
 theme:
-  name: readthedocs
-  highlightjs: true
+  name: material
 plugins:
   - search
   - mkdocstrings:
@@ -14,3 +13,8 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
   - admonition
+  - toc:
+      permalink: "#"
+nav:
+  - 首頁: 'index.md'
+  - 關於DYBTS: 'about.md'
