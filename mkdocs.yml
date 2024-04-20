@@ -18,3 +18,5 @@ markdown_extensions:
 nav:
   - 首頁: 'index.md'
   - 關於DYBTS: 'about.md'
+  - 功能:
+    - AI: 'ai.md'
