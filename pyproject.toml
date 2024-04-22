@@ -1,4 +1,0 @@
-[project]
-dependencies = [
-    "mkdocstrings[python]>=0.18",
-]
