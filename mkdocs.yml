@@ -1,14 +1,15 @@
 site_name: DYBTS 文檔
 theme:
+  logo: img/新icon.jpg
+  favicon: img/新icon.jpg
   name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
 plugins:
   - search
-  - mkdocstrings:
-      handlers:
-        # See: https://mkdocstrings.github.io/python/usage/
-        python:
-          options:
-            docstring_style: sphinx
+  
 markdown_extensions:
   - markdown_include.include:
       base_path: .
@@ -21,3 +22,29 @@ nav:
   - 文檔格式介紹: 'format.md'
   - 功能:
     - AI: 'ai.md'
+site_author: Do Your Best To Serve開發團隊
+copyright: Do Your Best To Serve開發團隊版權所有
+extra:
+  analytics:
+    provider: google
+    property: G-9NELFXYS6Z
+    feedback:
+      title: 這個頁面有幫助到你嗎？
+      ratings:
+        - icon: material/thumb-up-outline
+          name: 這個頁面對我來講有幫助
+          data: 1
+          note: >-
+            感謝你的意見回饋
+        - icon: material/thumb-down-outline
+          name: 這個頁面可以再改進
+          data: 0
+          note: >- 
+            感謝你的意見回饋，方便的話麻煩你加入<a href="https://discord.gg/7AHak4nSbE" target="_blank" rel="noopener">官方支援群組</a>讓我們知道哪邊可以變得更好。
+  consent:
+    title: Cookie 使用
+    description: >- 
+      我們使用cookie來識別您的重複訪問和偏好，以及衡量我們文檔的有效性以及使用者是否找到他們正在搜索的內容。在此徵詢您的同意，您正在幫助我們改進文件。
+    actions:
+      - accept
+      - manage
