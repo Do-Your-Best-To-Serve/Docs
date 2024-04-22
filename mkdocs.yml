@@ -1,4 +1,4 @@
-site_name: DYBTS Docs
+site_name: DYBTS 文檔
 theme:
   name: material
 plugins:
