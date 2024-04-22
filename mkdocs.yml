@@ -1,4 +1,4 @@
-site_name: DYBTS Docs
+site_name: DYBTS 文檔
 theme:
   name: material
 plugins:
@@ -18,3 +18,6 @@ markdown_extensions:
 nav:
   - 首頁: 'index.md'
   - 關於DYBTS: 'about.md'
+  - 文檔格式介紹: 'format.md'
+  - 功能:
+    - AI: 'ai.md'
